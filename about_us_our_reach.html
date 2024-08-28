@@ -1,63 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="../aboutus_ourreach/about_us_our_reach.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="about_us_our_reach.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="../navbar/navbar.js" defer></script>
-    <script src="../aboutus_ourreach/about_us_our_reach.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="navbar.js" defer></script>
+    <script src="about_us_our_reach.js" defer></script>
     <title>Our Reach</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 </head>
+
 <body>
-<div id="navbar"></div>
+    <div id="navbar"></div>
 
- <div class="reach">
-    <div class="reach-para">
-        <h1>Our Reach</h1>
-      <p>Here, we proudly showcase our extensive reach and expanded efforts throughout the various states of India, ensuring that we can assist a larger number of people who require our support. Through our platform, we not only demonstrate our commitment to helping those in need but also extend an invitation to others to join hands with us in this noble endeavor</p>
-    <div class="buttons">
-        <button>Join Us</button>
-        <button>Donate</button>
+    <div class="reach">
+        <div class="reach-para">
+            <h1>Our Reach</h1>
+            <p>Here, we proudly showcase our extensive reach and expanded efforts throughout the various states of
+                India, ensuring that we can assist a larger number of people who require our support. Through our
+                platform, we not only demonstrate our commitment to helping those in need but also extend an invitation
+                to others to join hands with us in this noble endeavor</p>
+            <div class="buttons">
+                <button>Join Us</button>
+                <button>Donate</button>
+            </div>
+        </div>
+        <img src="../images/Currentlocation.png" alt="">
     </div>
-    </div>
-    <img src="../images/Currentlocation.png" alt="">
- </div>
 
-<div class="container">
-    <div id="map-container">
-        <div id="map"></div>
-    </div>
-    <div class="map-para">
-        <h2>expanding our horizons to better serve more</h2>
-        <p>Welcome to Helping Hut, a non-governmental organization dedicated to making a meaningful impact across the diverse landscapes of India. Our mission revolves around expanding our horizons to better serve more individuals in need.</p>
-          
-    <div class="map-btn">
-        <button onclick="showLocation('Mumbai')">Mumbai</button>
-        <button onclick="showLocation('Bhopal')">Bhopal</button>
-        <button onclick="showLocation('Indore')">Indore</button>
-        <button onclick="showLocation('Kanpur')">Kanpur</button>
-        <button onclick="showLocation('Patna')">Patna</button>
-        <button onclick="showLocation('Gorakhpur')">Gorakhpur</button>
-        <button onclick="showLocation('Noida')">Noida</button>
-        <button onclick="showLocation('Prayagraj')">Prayagraj</button>
-        <button onclick="showLocation('Haryana')">Haryana</button>
-        <button onclick="showLocation('New Delhi')">New Delhi</button>
-        <button onclick="showLocation('Dwarka')">Dwarka</button>
-        <button onclick="showLocation('Kota')">Kota</button>
-        <button onclick="showLocation('Gwalior')">Gwalior</button>
-        <button onclick="showLocation('Kolkata')">Kolkata</button>
-        <button onclick="showLocation('Bardhaman')">Bardhaman</button>
-    </div>
-</div>
-</div>
+    <div class="container">
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+        <div class="map-para">
+            <h2>expanding our horizons to better serve more</h2>
+            <p>Welcome to Helping Hut, a non-governmental organization dedicated to making a meaningful impact across
+                the diverse landscapes of India. Our mission revolves around expanding our horizons to better serve more
+                individuals in need.</p>
 
-<div id="footer"></div>
+            <div class="map-btn">
+                <button onclick="showLocation('Mumbai')">Mumbai</button>
+                <button onclick="showLocation('Bhopal')">Bhopal</button>
+                <button onclick="showLocation('Indore')">Indore</button>
+                <button onclick="showLocation('Kanpur')">Kanpur</button>
+                <button onclick="showLocation('Patna')">Patna</button>
+                <button onclick="showLocation('Gorakhpur')">Gorakhpur</button>
+                <button onclick="showLocation('Noida')">Noida</button>
+                <button onclick="showLocation('Prayagraj')">Prayagraj</button>
+                <button onclick="showLocation('Haryana')">Haryana</button>
+                <button onclick="showLocation('New Delhi')">New Delhi</button>
+                <button onclick="showLocation('Dwarka')">Dwarka</button>
+                <button onclick="showLocation('Kota')">Kota</button>
+                <button onclick="showLocation('Gwalior')">Gwalior</button>
+                <button onclick="showLocation('Kolkata')">Kolkata</button>
+                <button onclick="showLocation('Bardhaman')">Bardhaman</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
 </body>
+
 </html>

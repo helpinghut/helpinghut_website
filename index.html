@@ -2,156 +2,187 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helping Hut</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Hut</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
-    <script src="../navbar/navbar.js" defer></script>
-    <script src="home.js" ></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <script src="navbar.js" defer></script>
+  <script src="home.js"></script>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_foOsqgZ3ryu2Emi3plWRo");
-            
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                console.log('SUCCESS!');
-               // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function () {
-                        console.log('SUCCESS!');
-                    }, function (error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-    
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_foOsqgZ3ryu2Emi3plWRo");
+
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        console.log('SUCCESS!');
+        // these IDs from the previous steps
+        emailjs.sendForm('contact_service', 'contact_form', this)
+          .then(function () {
+            console.log('SUCCESS!');
+          }, function (error) {
+            console.log('FAILED...', error);
+          });
+      });
+    }
+  </script>
+
 </head>
 
 <body>
   <div id="navbar"></div>
-    <div class="header">
-        <div class="left">
-          <img src="../images/hero img.png" alt="">
-        </div>
-        <div class="right">
-          <h1>Helping Hut NGO</h1>
-          <h3>An NGO, operating as a not-for-profit entity, has received official verification from both NITI Aayog and NGO Darpa</h3>
-          <p>Taking positive actions to fulfill essential needs: A stride towards achieving a beggar-free India</p>
-          <h4> <span>learn more</span> about Helping Hut</h4>
-        </div>
+  <div class="header">
+    <div class="left">
+      <img src="../images/hero img.png" alt="">
     </div>
-   
-  
-    <div class="slider">
-      <button class="first" id="prevBtn"><img src="../images/leftarrow.png" alt=""></button>
-        <button class="first" id="nextBtn"><img src="../images/rightarrow.png" alt=""></button> 
-      <div class="slider1 slidercommon active">
-        <div class="slider1-head sliderhead">
-        <h1><span>Empowering Lives</span>: Ensuring Every Needy Receives the Right to Live</h1>
-        <p>Welcome to HELPING HUT NGO: Connecting Realities, Changing Lives! Join our heart-driven volunteers to make a difference. Discover our nation's extremes and learn about others' needs, while enriching yourself in the process.</p>
-        <h4>Join as a Volunteer</h4>
-    </div>
-    <div class="slider1-img sliderimg">
-        <img src="../images/slider1.png" alt="">
-        <h4>Through the platform of <span>"HELPING HUT NGO,"</span> we aim to bridge the gap and expose you to some harsh realities prevalent in our nation.</h4>
-        <button>Join Us</button>
+    <div class="right">
+      <h1>Helping Hut NGO</h1>
+      <h3>An NGO, operating as a not-for-profit entity, has received official verification from both NITI Aayog and NGO
+        Darpa</h3>
+      <p>Taking positive actions to fulfill essential needs: A stride towards achieving a beggar-free India</p>
+      <h4> <span>learn more</span> about Helping Hut</h4>
     </div>
   </div>
-     
-       <div class="slider2 slidercommon">
-       <div class="slider2-head sliderhead">
-         <h1><span>Empower Lives</span>: Donate for a Worthy Cause!</h1>
-         <p>We support the less privileged among us-the homeless, unemployed,  impoverished, and uneducated children. Our mission is to provide them  with essential necessities for survival and equip them with tools to start  small businesses, empowering them to sustain their livelihoods.</p>
-       </div>
-       <div class="slider2-img sliderimg">
-        <img src="../images/slider2.png" alt="">
-        <h4>"Helping Hut: Empowering Hope with a Youthful Touch. Registered  under Section 60 Trust Act in 2021."</h4>
-        <button>Donate</button>
-       </div>
+
+
+  <div class="slider">
+    <button class="first" id="prevBtn"><img src="../images/leftarrow.png" alt=""></button>
+    <button class="first" id="nextBtn"><img src="../images/rightarrow.png" alt=""></button>
+    <div class="slider1 slidercommon active">
+      <div class="slider1-head sliderhead">
+        <h1><span>Empowering Lives</span>: Ensuring Every Needy Receives the Right to Live</h1>
+        <p>Welcome to HELPING HUT NGO: Connecting Realities, Changing Lives! Join our heart-driven volunteers to make a
+          difference. Discover our nation's extremes and learn about others' needs, while enriching yourself in the
+          process.</p>
+        <h4>Join as a Volunteer</h4>
       </div>
-      
-       <div class="slider3 slidercommon">
-         <div class="slider3-head sliderhead">
-          <h1> <span>Join Our Compassionate Team</span>: Explore Helping Hut Career Opportunities!</h1>
-          <p>Unleash Boundless Opportunities! Become a Campus Ambassador,  gain empowering impact, and inspire change. Explore diverse Internship programs, enhance skills through real-world experiences.  Find passion-driven job opportunities, make a meaningful difference. Join us on this exciting journey of growth and personal fulfillment!</p>
-          <h4>Contact@helpinghutgo.in</h4> 
-        </div>
-         <div class="slider3-img sliderimg">
-            <img src="../images/slider4.png" alt="">
-            <h4>Send your resume to <span>contact@helpinghutngo.in</span> with the specified title in the subject line.</h4>
-            <button>Career</button>
-         </div>
-        </div>
-   
-        <div class="slider4 slidercommon">
-        <div class="slider4-head sliderhead">
-          <h1> <span>Spread the Love</span> : Invite Friends to Help Helping Hut NGO!</h1>
-          <p>Multiply the Impact: Invite Friends to Support Helping Hut NGO! Share the love and inspire change with our WhatsApp Invite button. Together, we uplift lives and build a brighter future!</p>
-        </div>
-        <div class="slider4-img sliderimg">
-            <img src="../images/slider3.png" alt="">
-            <h4>Connect with us on WhatsApp</h4>
-            <button>Invite</button>
-          </div>
-        </div>  
-             
-      </div>
-      
-    <div class="aboutus">
-      <h1 class="heading">About The NGO</h1>
-      <p class="aboutpara1">Helping Hut NGO envisions a beggar-free society where every needy person receives basic living rights. Our mission is to provide employment opportunities to beggars, eradicate begging, and make a positive impact through online campaigns, ground work, and empowering initiatives. Together, we strive to bring joy, awareness, and empowerment to those in need, spreading brightness in their lives and uplifting them from deprivation to knowledge and resources</p>
-      <div class="aboutinfo">
-        <div class="aboutimg">
-          <img src="../images/aboutimg.png" alt="">
-        </div>
-        <div class="aboutimginfo">
-          <h1>How We are making the difference</h1>
-          <h3>Feed the Striving: Creating Impact with Compassion</h3>
-          <p>In a world where a little love, care, and small acts can bring immense happiness without requiring a fortune, Helping Hut NGO aims to feed the  starving and make a positive impact on the lives of those in need.</p>
-          <h3>Empowering Campaigns by Helping Hut NGO</h3>
-          <li><span>Save Water, Plant for Greener Tomorrow:</span> Join our online campaigns to raise  awareness about water conservation and its impact on the needy. Be a part  of our tree-planting initiative to combat environmental challenges for  vulnerable communities</li>
-           <li><span>Utthan Abhiyan - Empowering the Needy:</span> Explore this impactful campaign that aims to raise awareness about government policies and their benefits for those in need. Be a part of the change and uplift vulnerable communities  towards a better future.</li>
-           <li><span>Artistic Expressions for Change and Quizzes for Knowledge:</span> Unleash your creativity in our competitions focusing on art, craft, and poetry, while  engaging in our interactive quizzes that enhance knowledge and  understanding, fostering empowerment for a better future.</li>
-        </div>
-      </div>
-      <p class="aboutpara2">Ground work at Helping Hut brings smiles to the needy through constant efforts, spreading awareness, and distributing masks, education kits, and clothes. We also empower urban and rural children with  education, helping them soar to great heights.</p>
-      <div class="aboutcards">
-        <img src="../images/aboutcard1.png" alt="">
-        <img src="../images/aboutcard2.png" alt="">
-        <img src="../images/aboutcard3.png" alt="">
+      <div class="slider1-img sliderimg">
+        <img src="../images/slider1.png" alt="">
+        <h4>Through the platform of <span>"HELPING HUT NGO,"</span> we aim to bridge the gap and expose you to some
+          harsh realities prevalent in our nation.</h4>
+        <button>Join Us</button>
       </div>
     </div>
 
-    <div class="ourwork">
-      <h1 class="heading">Our Work</h1>
-      <div class="ourwork-main">
-        <div class="ourworkinfo">
+    <div class="slider2 slidercommon">
+      <div class="slider2-head sliderhead">
+        <h1><span>Empower Lives</span>: Donate for a Worthy Cause!</h1>
+        <p>We support the less privileged among us-the homeless, unemployed, impoverished, and uneducated children. Our
+          mission is to provide them with essential necessities for survival and equip them with tools to start small
+          businesses, empowering them to sustain their livelihoods.</p>
+      </div>
+      <div class="slider2-img sliderimg">
+        <img src="../images/slider2.png" alt="">
+        <h4>"Helping Hut: Empowering Hope with a Youthful Touch. Registered under Section 60 Trust Act in 2021."</h4>
+        <button>Donate</button>
+      </div>
+    </div>
+
+    <div class="slider3 slidercommon">
+      <div class="slider3-head sliderhead">
+        <h1> <span>Join Our Compassionate Team</span>: Explore Helping Hut Career Opportunities!</h1>
+        <p>Unleash Boundless Opportunities! Become a Campus Ambassador, gain empowering impact, and inspire change.
+          Explore diverse Internship programs, enhance skills through real-world experiences. Find passion-driven job
+          opportunities, make a meaningful difference. Join us on this exciting journey of growth and personal
+          fulfillment!</p>
+        <h4>Contact@helpinghutgo.in</h4>
+      </div>
+      <div class="slider3-img sliderimg">
+        <img src="../images/slider4.png" alt="">
+        <h4>Send your resume to <span>contact@helpinghutngo.in</span> with the specified title in the subject line.</h4>
+        <button>Career</button>
+      </div>
+    </div>
+
+    <div class="slider4 slidercommon">
+      <div class="slider4-head sliderhead">
+        <h1> <span>Spread the Love</span> : Invite Friends to Help Helping Hut NGO!</h1>
+        <p>Multiply the Impact: Invite Friends to Support Helping Hut NGO! Share the love and inspire change with our
+          WhatsApp Invite button. Together, we uplift lives and build a brighter future!</p>
+      </div>
+      <div class="slider4-img sliderimg">
+        <img src="../images/slider3.png" alt="">
+        <h4>Connect with us on WhatsApp</h4>
+        <button>Invite</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="aboutus">
+    <h1 class="heading">About The NGO</h1>
+    <p class="aboutpara1">Helping Hut NGO envisions a beggar-free society where every needy person receives basic living
+      rights. Our mission is to provide employment opportunities to beggars, eradicate begging, and make a positive
+      impact through online campaigns, ground work, and empowering initiatives. Together, we strive to bring joy,
+      awareness, and empowerment to those in need, spreading brightness in their lives and uplifting them from
+      deprivation to knowledge and resources</p>
+    <div class="aboutinfo">
+      <div class="aboutimg">
+        <img src="../images/aboutimg.png" alt="">
+      </div>
+      <div class="aboutimginfo">
+        <h1>How We are making the difference</h1>
+        <h3>Feed the Striving: Creating Impact with Compassion</h3>
+        <p>In a world where a little love, care, and small acts can bring immense happiness without requiring a fortune,
+          Helping Hut NGO aims to feed the starving and make a positive impact on the lives of those in need.</p>
+        <h3>Empowering Campaigns by Helping Hut NGO</h3>
+        <li><span>Save Water, Plant for Greener Tomorrow:</span> Join our online campaigns to raise awareness about
+          water conservation and its impact on the needy. Be a part of our tree-planting initiative to combat
+          environmental challenges for vulnerable communities</li>
+        <li><span>Utthan Abhiyan - Empowering the Needy:</span> Explore this impactful campaign that aims to raise
+          awareness about government policies and their benefits for those in need. Be a part of the change and uplift
+          vulnerable communities towards a better future.</li>
+        <li><span>Artistic Expressions for Change and Quizzes for Knowledge:</span> Unleash your creativity in our
+          competitions focusing on art, craft, and poetry, while engaging in our interactive quizzes that enhance
+          knowledge and understanding, fostering empowerment for a better future.</li>
+      </div>
+    </div>
+    <p class="aboutpara2">Ground work at Helping Hut brings smiles to the needy through constant efforts, spreading
+      awareness, and distributing masks, education kits, and clothes. We also empower urban and rural children with
+      education, helping them soar to great heights.</p>
+    <div class="aboutcards">
+      <img src="../images/aboutcard1.png" alt="">
+      <img src="../images/aboutcard2.png" alt="">
+      <img src="../images/aboutcard3.png" alt="">
+    </div>
+  </div>
+
+  <div class="ourwork">
+    <h1 class="heading">Our Work</h1>
+    <div class="ourwork-main">
+      <div class="ourworkinfo">
         <h1><span>Changing Lives:</span> Our Impactful Initiatives for a Better Tomorrow</h1>
-        <p class="ourwork-para1">At Helping Hut, we believe in collaborative partnerships for holistic development. We provide quality education, healthcare,and livelihood opportunities, empowering individuals to break the cycle of poverty. Our environmental projects promote sustainability for a better world. Join us in making a difference!</p>
-        <p class="ourwork-para2">Together, let's make a real and lasting impact on the lives of those in need. Join Helping Hut in our journey towards positive change!"</p>
-        <button><a href="../ourwork_recent/ourwork_recent.html">View All</a></button>  
+        <p class="ourwork-para1">At Helping Hut, we believe in collaborative partnerships for holistic development. We
+          provide quality education, healthcare,and livelihood opportunities, empowering individuals to break the cycle
+          of poverty. Our environmental projects promote sustainability for a better world. Join us in making a
+          difference!</p>
+        <p class="ourwork-para2">Together, let's make a real and lasting impact on the lives of those in need. Join
+          Helping Hut in our journey towards positive change!"</p>
+        <button><a href="../ourwork_recent/ourwork_recent.html">View All</a></button>
       </div>
       <div class="ourworkimg">
-        <img class="ourwork-img1"  src="../images/ourworkimg1.png"  >
-        <img class="ourwork-img2" src="../images/ourworkimg2.png" >
+        <img class="ourwork-img1" src="../images/ourworkimg1.png">
+        <img class="ourwork-img2" src="../images/ourworkimg2.png">
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class="gallery">
-      <h1 class="heading">Gallery</h1>
-      <p>Discover Helping Hut Hut's story in pictures! Our gallery highlights the meaningful work and efforts we've put into creating  positive change. From transformative initiatives to community engagement, these images capture the heart of our NGO's  impact. Join us in the journey of giving and making a difference!</p>
-      <div class="gallery-img">
+  <div class="gallery">
+    <h1 class="heading">Gallery</h1>
+    <p>Discover Helping Hut Hut's story in pictures! Our gallery highlights the meaningful work and efforts we've put
+      into creating positive change. From transformative initiatives to community engagement, these images capture the
+      heart of our NGO's impact. Join us in the journey of giving and making a difference!</p>
+    <div class="gallery-img">
       <img class="galleryimg1" src="../images/galleryimg1.png" alt="">
       <img class="galleryimg2" src="../images/galleryimg2.png" alt="">
       <img class="galleryimg3" src="../images/galleryimg3.png" alt="">
@@ -159,32 +190,34 @@
       <img class="galleryimg5" src="../images/galleryimg5.png" alt="">
       <img class="galleryimg6" src="../images/galleryimg6.png" alt="">
     </div>
-    </div>
+  </div>
 
-    <div class="contactus">
-      <h1 class="heading">Contact Us</h1>
-      <div class="allcontact">
-        <div class="contact-form">
-          <p>We value your interest in our NGO's work and are eager to hear from you. Whether you have questions about our projects, want to volunteer, or wish to contribute to our cause, the Contact Us section is designed to make it easy for you to get in touch with our team.</p>
-          
-          <form id="contact-form">
-          <label for="yourname"  class="form-label">First Name</label>
-          <input type="text" id="yourName" required >
-          <label for="emailInput"  class="form-label">Email</label>
+  <div class="contactus">
+    <h1 class="heading">Contact Us</h1>
+    <div class="allcontact">
+      <div class="contact-form">
+        <p>We value your interest in our NGO's work and are eager to hear from you. Whether you have questions about our
+          projects, want to volunteer, or wish to contribute to our cause, the Contact Us section is designed to make it
+          easy for you to get in touch with our team.</p>
+
+        <form id="contact-form">
+          <label for="yourname" class="form-label">First Name</label>
+          <input type="text" id="yourName" required>
+          <label for="emailInput" class="form-label">Email</label>
           <input type="text" id="emailInput" required>
-          <label for="textareaBox"  class="form-label" >Message</label>
-          <input id="textareaBox" rows="4"placeholder="write your message" required>
-          <button  type="submit" value="send">Send Message</button> 
-          </form>
+          <label for="textareaBox" class="form-label">Message</label>
+          <input id="textareaBox" rows="4" placeholder="write your message" required>
+          <button type="submit" value="send">Send Message</button>
+        </form>
 
-        </div>
-        <div class="contact-info">
-         <img src="../images/contactdetails.png" alt="">
-        </div>
-        </div>
+      </div>
+      <div class="contact-info">
+        <img src="../images/contactdetails.png" alt="">
+      </div>
     </div>
-    <div id="footer"></div>
-    
+  </div>
+  <div id="footer"></div>
+
 </body>
 
 </html>
