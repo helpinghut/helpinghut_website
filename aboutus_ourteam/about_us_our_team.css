@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Adjust width for responsiveness */
+    margin: 3vh auto; /* Center align and provide margin */
+    font-family: 'poppins';
+}
+
+.main h1 {
+    font-size: 47px; /* Adjust font size for smaller screens */
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.main h3 {
+    font-size: 16px; /* Adjust font size */
+    font-weight: 400;
+    color:#717171;
+}
+
+.main h3+p{
+text-align: center;
+color: #717171;
+font-weight: 500;
+margin-top: 2vh;
+width: 90%; /* Adjust width */
+font-size: 20px; /* Adjust font size */
+}
+
+
+.main p + p {
+    width: 75%; /* Adjust width */
+    font-size: 18px; /* Adjust font size */
+    text-align: center;
+    margin-top: 2vh;
+color: #717171;
+/* Be a part of Helping Hut and be a part of something bigger than yourself Join us today and become a helping hand in our mission to create a better world for all */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.015em;
+}
+
+
+
+.btn1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 9vw;
+height: 6vh;
+background: #4CAF4F;
+border-radius: 4px;
+border: #4CAF4F;
+color: #FFFFFF;
+}
+
+.btn2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px;
+gap: 10px;
+width: 9vw;
+height: 6vh;
+background: #FFFFFF;
+border: 1px solid #4CAF4F;
+border-radius: 4px;
+color: #4CAF4F;
+}
+
+.buttons {
+    width: 100%; /* Make buttons full width */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+
+
+.team{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+width: 90%; /* Adjust width for responsiveness */
+margin: 30px auto; /* Center align and provide margin */
+
+
+}
+
+.team-info{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 10px;
+width: 50%;
+}
+
+.team-info h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+text-transform: capitalize;
+color: #263238;
+}
+.team-info h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #4CAF4F;
+}
+
+.team-info p{
+width: 43vw;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 18px;
+line-height: 33px;
+color: #717171;
+}
+
+
+.team-container{
+display: flex;
+align-items: center;
+flex-wrap: wrap; /* Allow team containers to wrap */
+justify-content: space-around; 
+
+height: 413px;
+
+}
+
+.team-container img{
+    width: 40%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container2 img{
+width: 43vw;
+height: 45vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+
+height: 413px;
+}
+
+
+@media(max-width:500px) {
+
+.main{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.main h1{
+width: 169px;
+font-size: 22.81px;
+text-align: center;
+}
+
+.main h3{
+width: 95%;
+font-weight: 500;
+font-size: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.main h3+p{
+width: 100%;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 0px;
+}
+
+.main p+p{
+width: 98%;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+padding: 0px;
+}
+
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 248px;
+height: 36px;
+}
+
+.btn1{
+width: 114px;
+height: 36px;
+padding: 0px;
+}
+
+.btn2{
+    
+width: 114px;
+height: 36px;
+}
+
+.team{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left: 15px;
+padding-right: 15px;
+gap: 25px;
+width: 100%;
+margin: 0px;
+}
+
+.team-container img{
+width: 358px;
+height: 207.26px;
+}
+
+.team-container{
+display: flex;
+flex-direction: column;
+padding: 20px 0px;
+gap: 17px;
+width: 100%;
+height: 595.26px;
+margin: 0px;
+align-items: flex-start;
+}
+
+.team-info{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+gap: 20px;
+width: 100%;
+height: 331px;
+}
+
+
+.team-info h1{
+width: 100%;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+
+.team-info h3{
+width: 100%;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}
+
+.team-info p{
+width: 100%;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.015em;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+}    
+
+
+@media(max-width:992px) and (min-width: 501px){
+    
+.btn1{
+    width: 10vw;
+    height: 6vh;
+    font-size: 10px;
+    padding: 0px;
+    gap: 0px;
+    }
+    
+    .btn2{
+        font-size: 10px;
+    width: 10vw;
+    height: 6vh;
+    }
+
+    .team-container{
+         height: auto;
+    }
+    .team-info h1{
+        font-size: 20px;
+        }
+        
+        .team-info h3{
+        font-size: 12px;
+        }
+        .container2 img{
+            height: auto;
+        }
+        
+        .team-info p{
+        font-size: 11px;
+        line-height: 26px;
+        }
+}

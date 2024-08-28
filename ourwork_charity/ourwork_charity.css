@@ -1,0 +1,529 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 18px;
+width: 100%;
+font-family: 'poppins';
+margin-top: 15px;
+}
+
+.head-para{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 40vw;
+
+
+}
+.head-para h1{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+color: #263238;
+}
+
+.head-para h2{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+color: #263238;
+
+}
+
+.head-para h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+
+color: #717171;
+}
+
+.head-para button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 12vw;
+height: 8vh;
+background: #4CAF4F;
+border-radius: 4px;
+border: none;
+color: #FFFFFF;
+}
+
+.head img{
+  width: 35vw;
+height: 57vh;
+
+}
+
+.head2{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+margin-top: 5vh;
+
+}
+.head2 img{
+width: 36vw;
+max-height: 65vh;
+
+}
+
+.head2-para{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+font-family: 'poppins';
+gap: 10px;
+width: 50%;
+
+}
+
+.head2-para h2{
+width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #4CAF4F;
+
+}
+
+.head2-para h1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+width: 100%;
+font-size: 40px;
+font-weight: 600;
+
+}
+
+.head2-para p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #263238;
+
+}
+
+.head2-para h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #1D1D1D;
+}
+
+.head3{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 5vw;
+gap: 20px;
+width: 100%;
+margin-top: 5vh;
+padding-right: 35px;
+}
+
+.head3 h2{
+width: 152px;
+height: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-transform: capitalize;
+
+color: #4CAF4F;
+
+}
+.head3 h1{
+
+width: 60%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-transform: capitalize;
+
+color: #263238;
+
+}
+.head3 p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #37474F;
+
+}
+
+.head3 p+p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #37474F;
+}
+
+.img-container{
+    width: 100%;
+    gap: 10px;
+    margin-top:5vh ;
+    text-align: center;
+    display: flex;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+.inside-img-container{
+  width: 50%;
+  text-align: start;
+}
+
+
+.img1{
+width: 42vw;
+height: 60.5vh;
+
+}
+
+.img2{
+width: 20vw;
+height: 30vh;
+
+}
+
+.img3{
+    width: 20vw;
+    height: 30vh;
+   
+    }
+    .img4{
+      width: 20vw;
+      height: 30vh;
+      }
+
+@media(max-width:500px) {
+
+.head{
+width: 100%;
+padding-left: 15px;
+margin: 0px;
+display: flex;
+justify-content: start;
+height: 100vh;
+padding-right: 15px;
+
+}
+.head img{
+width: 100%;
+height: 40vh;
+position: relative;
+right: 380px;
+bottom: -120px;
+}
+
+.head-para{
+display: flex;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 100%;
+justify-content: end;
+
+}
+
+.head-para h1{
+    line-height: 35px;
+font-size: 24px;
+width: 100%;
+position: relative;
+bottom: 250px;
+}
+
+.head-para h2{
+width: 356px;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+
+}
+
+.head-para h3{
+width: 288px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+}
+
+
+
+.head-para button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+width: 358px;
+height: 56px;
+
+}
+
+.head2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: none;
+padding: 0px;
+gap: 20px;
+margin: 0px;
+width: 100%;
+margin-top: 80px;
+padding: 0px 15px;
+}
+
+.head2 img{
+width: 358px;
+height: 330.11px;
+position: relative;
+top: 100px;
+}
+
+.head2-para{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+width: 100%;
+}
+
+.head2-para h2{
+width: 100%;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+position: relative;
+bottom: 360px;
+
+}
+
+.head2-para h1{
+  width: 100%;
+position: relative;
+bottom: 360px;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+}
+
+.head2-para p{
+  width: 100%;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.015em;
+
+}
+
+.head2-para h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 17px;
+}
+
+.head3{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+width: 100%;
+padding: 0px 15px;
+}
+.head3 h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.head3 h1{
+width: 100%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+}
+
+.head3 p{
+/* In December 2021, our organization took action to bring joy to little ones. We aimed to lift the heavy responsibility from their shoulders, letting them freely enjoy their childhood for a while. We organized games like finding coins in the sand, treasure hunts, skipping races, and more. Alongside the fun, we gave gifts like geometry boxes, lunchboxes, and stationery items. Food stalls with sandwiches, bhel puri, fresh salad, and beverages added to the enjoyment. We focused on educating homeless children and caring for their physical health. */
+margin-top: 2vh;
+width: 100%;
+font-weight: 500;
+font-size: 18px;
+line-height: 173.5%;
+/* or 31px */
+display: flex;
+align-items: center;
+}
+
+.head3 p+p{
+  width: 100%;
+margin-top: 2vh;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+}
+
+
+
+.img-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 10px 20px;
+width: 100%;
+margin: 30px 0px;
+padding: 0px 15px;
+
+}
+
+.img1{
+width: 100%;
+height: 286.4px;
+
+}
+.img2{
+  width: 49%;
+}
+.img4{
+  width: 49%;
+}
+.img3{
+  width: 49%;
+}
+.inside-img-container{
+  width: 100%;
+}
+
+}    
+
+
+@media(max-width:892px) and (min-width: 501px){
+  .head-para h1{
+    font-size: 25px;
+    min-height: 10vh;
+  }
+
+  .head-para h2{
+    font-size: 17px;
+  }
+  .head-para h2{
+    font-size: 15px;
+  }
+
+  .head-para button{
+    width: 10vw;
+    font-size: 12px;
+    padding: 0px;
+    height: 5vh;
+  }
+  .head img{
+    width: 40vw;
+    height: 50vh;
+  }
+  .head2-para h1{
+    font-size: 20px;
+    min-height: 10vh;
+  }
+  .head2-para p{
+    font-size: 15px;
+  }
+  .head2-para h3{
+    font-size: 12px;
+  }
+  .head3 h1{
+    width: 100%;
+    font-size: 25px;
+    min-height: 10vh;
+  }
+  .head3 p{
+    font-size: 15px;
+  }
+  .head3 p+p{
+    font-size: 15px;
+  }
+ .img-container{
+  padding-left: 35px;
+ }
+
+}
+

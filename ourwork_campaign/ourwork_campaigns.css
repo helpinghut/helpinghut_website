@@ -1,0 +1,397 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+width: 100%;
+margin-top: 20px;
+justify-content: space-around;
+font-family: 'poppins';
+padding-left: 15px;
+
+}
+
+.head img{
+width: 40%;
+height: 100%;
+background-image: url(../images/campaignback.png);
+background-size: contain;
+}
+
+.head-para{
+width: 45%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.head-para h1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+color: #4CAF4F;
+font-weight: 600;
+font-size: 50px;
+}
+
+.head-para h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.015em;
+color: #717171;
+
+}
+
+
+.head-para p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+color: #717171;
+}
+
+.head-para button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 12vw;
+min-height: 8vh;
+background: #4CAF4F;
+border: none;
+border-radius: 4px;
+color: #FFFFFF;
+margin-top: 4vh;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 90px 0px;
+    width: 100%;
+
+}
+
+.heading a{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.highlight{
+    text-decoration-line: underline;
+    text-decoration-color: #4CAF4F;
+    text-decoration-thickness:10px;
+}
+
+.campaign{
+    padding-left: 50px;
+}
+
+
+.cam-heading{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 90%;
+margin-bottom: 90px;
+}
+
+.firstpara{
+display: flex;
+gap: 10px;
+width: 100%;
+}
+
+.firstpara img{
+width: 5vw;
+height: 10vh;
+}
+
+.heading-para h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+display: flex;
+align-items: center;
+color: #4CAF4F;
+
+}
+
+.heading-para h3{
+min-width: 12vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.campaign p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 35px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+color: #717171;
+}
+
+.cam-img{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cam-img img{
+width: 26vw;
+height: 40vh;
+
+}
+    
+
+@media(max-width:500px) {
+ 
+.head{
+    display: flex;
+    flex-direction: column-reverse;
+  margin: 0px;
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.head img{
+width: 100vw;
+background-size: cover;
+}
+
+.head-para{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 100%;
+
+}
+
+.head-para h1{
+position: absolute;
+top: 80px;
+font-size: 22px;
+width: 60%;
+}
+
+.head-para h3{
+    width: 358px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    
+}
+.head-para p{
+width: 100%;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+
+
+}
+.head-para button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+margin: 0px;
+width: 169px;
+height: 36px;
+}
+
+.campaign{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+width: 100%;
+padding-left: 4vh;
+margin-bottom: 20px;
+}
+
+.firstpara{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+width: 100%;
+}
+
+.firstpara img{
+width: 74px;
+height: 62.35px;
+}
+
+.heading-para h1{
+    width: 100%;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+}
+.heading-para h3{
+    margin-top: 2vh;
+    width: 100%;
+}
+
+
+
+.cam-heading{
+margin: 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 358px;
+
+}
+.cam-heading p{
+width: 100%;
+height: auto;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+
+}
+.cam-img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+}
+
+.cam-img img{
+width: 358px;
+height: 245.64px;
+}
+.heading{
+    height: 10vh;
+    width: 100%;
+    margin: 20px 0px;
+    gap: 30px;
+    box-shadow: 0px 3.25px 4.33333px rgba(0, 0, 0, 0.14), 0px 3.25px 3.25px rgba(0, 0, 0, 0.12), 0px 1.08333px 8.66667px rgba(0, 0, 0, 0.2);
+
+
+}
+.heading a{
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.highlight{
+    text-decoration-thickness:5px;
+}
+
+}    
+
+
+@media(max-width:992px) and (min-width: 501px){
+.head-para h1{
+font-size: 20px;
+}
+.head-para h3{
+    font-size: 16px;
+}
+.head-para p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.head-para button{
+    width: 13vw;
+    min-height: 6vh;
+    font-size: 10px;
+}
+.heading{
+    margin: 60px 0px;
+
+}
+
+.heading a{
+    font-family:"Roboto";
+}
+.campaign{
+    height: auto;
+}
+.cam-heading{
+    margin: 0px;
+    height: auto;
+}
+.heading-para h1{
+    font-size: 18px;
+    height: auto;
+}
+.heading-para h3{
+    font-size: 15px;
+    height: auto;
+}
+.cam-heading{
+    gap: 0px;
+    height: auto;
+}
+
+.cam-heading p{
+    font-size: 12px;
+    line-height: 20px;
+    height: auto;
+}
+.firstpara img{
+    width: auto;
+}
+.cam-img{
+    margin: 30px 0px;
+}
+.cam-img img{
+    height: auto;
+}
+}

@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+display: flex;
+align-items: center;
+width: 100%;
+margin-top: 5vh;
+justify-content: space-around;
+}
+
+.para-container{
+width: 56vw;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.para-container h1{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+display: flex;
+align-items: center;
+color: #4CAF4F;
+}
+
+.para-container h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+color: #717171;
+}
+.para-container p{
+    margin-top: 20px;
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 27px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+color: #717171;
+}
+
+.para-container button{
+width: 11vw;
+height: 7vh;
+background: #4CAF4F;
+border-radius: 4px;
+border: #4CAF4F;
+color: #FFFFFF;
+margin-top: 3vh;
+}
+
+.img-container img{
+width: 30vw;
+height: 65vh;
+}
+
+.motive{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+gap: 50px;
+width: 100%;
+height: 165vh;
+margin-top: 5px;
+}
+
+.motive-paras1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 79vw;
+gap: 60px;
+}
+
+.motive-paras1 img{
+width: 15vw;
+height: 34vh;
+}
+
+.motive-paras2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 79vw;
+}
+.motive-paras2 img{
+    width: 15vw;
+    height: 34vh;
+    }
+
+.motive-para1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 80vw;
+}
+
+.motive-para1 h1{
+width: 195px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #263238;
+}
+
+.motive-para1 h3{
+width: 49vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+display: flex;
+align-items: center;
+color: #717171;
+}
+
+.motive-para1 p{
+width: 66vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #717171;
+
+}
+
+
+@media(max-width:477px) {
+
+.main{
+display: flex;
+flex-direction: column-reverse;
+}
+.img-container img {
+    width: 50vw;
+    height: 313.15px;
+}
+
+.para-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+.para-container h1{
+    font-size: 30px;
+}
+.para-container h3{
+ width: auto;
+}
+.para-container p{
+    width: auto;
+}
+
+.para-container button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+width: 167px;
+height: 36px;
+background: #4CAF4F;
+border-radius: 4px;
+}
+
+.motive{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin: 0px;
+gap: 0px;
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+
+.motive-paras1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.motive-paras2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 29px;
+}
+.motive-para1{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.motive-para1 h1{
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    
+}
+
+.motive-para1 h3{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+display: flex;
+align-items: center;
+text-align: center;
+font-weight: 400;
+font-size: 18px;
+}
+.motive-para1 p{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+
+.motive-paras2{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+}    
+
+@media(max-width:992px){
+
+   
+.para-container h1{
+    font-size: 44px;
+    }
+    
+    .para-container h3{
+    
+    font-size: 16px;
+    }
+    .para-container p{
+    font-size: 13px;
+    }
+    
+    .para-container button{
+    width: 11vw;
+    height: 7vh;
+    font-size: 10px;
+    }
+    
+    .img-container img{
+    width: 30vw;
+    height: 55vh;
+    }
+   
+   
+   
+   
+    .motive{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    height: 130vh;
+   }
+
+    .motive-para1 h1{
+        font-size: 29px;
+        
+    }
+    
+    .motive-para1 h3{
+    font-size: 16px;
+    width: 100%;
+    }
+    .motive-para1 p{
+    font-size: 10px;
+    line-height: 20px;
+    }
+    .motive-paras1 img{
+        width: 15vw;
+        height: 25vh;
+        }
+        
+        .motive-paras2 img{
+            width: 15vw;
+            height: 25vh;
+        }
+}
+
+@media(max-width:690px) {
+    .main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img-container img{
+width:50vw ;
+    }
+    .para-container h1{
+font-size: 24px;
+
+    }
+    .para-container h3{
+        font-size: 16px;
+    }
+    
+    .para-container p{
+        font-size: 14px;
+    }
+    
+    .para-container button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+width: 167px;
+height: 36px;
+
+    }
+
+    .motive{
+        margin-top:20px ;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .motive-para1 h1{
+       font-size: 24px;
+    }
+    
+    .motive-para1 h3{
+        font-size: 16px;
+    }
+    
+    .motive-para1 p{
+        font-size: 12px;
+        width: auto;
+    }
+    .motive-paras1 img{
+
+        width: 169px;
+        height: 162.42px;
+        
+        }
+        .motive-paras2 img{
+
+            width: 169px;
+            height: 162.42px;
+            
+            }
+}

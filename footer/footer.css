@@ -1,0 +1,495 @@
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    font-family: 'poppins';
+    color: #ffffff;
+     background-image: url(../images/FOOTER.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+
+    
+    .footer1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 450px;
+    
+    }
+
+    .innerfooter1{
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6vh;
+    }
+
+    .inner1-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .inner1-logo img{
+        height: 8vh;
+        width: 4vw;
+    }
+    .inner1-logo h1{
+        font-size: 30px;
+        font-weight: 500;
+        
+    }
+
+    .innerfooter1 p{
+        width: 100%;
+        font-size: 14.59px;
+        margin-top: 2vh;
+        flex-wrap: wrap;
+    }
+    .sign{
+        width: 90%;
+        margin-top: 1vh;
+    }
+
+    .innerfooter2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 6vh;
+
+width: 182px;
+
+    }
+
+    .innerfooter2 h1{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .inner2-head{
+        width: 100%;
+        height: 25vh;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 1vw;
+        
+    }
+    .inner2-head h3{
+        font-weight: 500;
+        font-size: 16px;
+        
+    }
+
+
+
+    .innerfooter3{
+        width: 182px;
+        
+        display: flex;
+        flex-direction: column;
+        padding-top: 6vh;
+    }
+
+    .inner3-head{
+        width: 100%;
+        height: 25vh;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 1vw;
+        
+    }
+    .inner3-head h3{
+        font-weight: 500;
+        font-size: 16px;
+        
+    }
+    .innerfooter3 h1{
+        font-weight: 500;
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+    .innerfooter4{
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6vh;
+    }
+
+    .innerfooter4 h1{
+        font-weight: 500;
+        font-size: 16px;
+
+    }
+
+    .inner4-img{
+        display: flex;
+        width: 100%;
+        height: 19vh;
+        align-items: center;
+    }
+
+    .inner4-img img{
+        width: 13vw;
+        height: 10vh;
+    }
+
+    .inner4-img img+img{
+        width: 7vw;
+        height: 18vh;
+    }
+
+
+    .footer2{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 7vh;
+        padding-left: 7vw;
+    }
+    
+    .insidefooter2{
+        display: flex;
+        gap:1vw;
+    }
+    .footer2 a{
+        font-size: 13px;
+        font-weight: 500;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .footer2 h3{
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 10vw;
+    }
+    .footer2 h2{
+        font-size: 13px;
+        font-weight: 500; 
+    }
+
+   .twofooter{
+    display: flex;
+    gap: 10px;
+   }
+  
+ 
+
+    @media(max-width:992px) and (min-width: 691px) {
+        footer{
+            width: 100%;
+            height: 400px;
+            font-family: 'poppins';
+        }
+       
+        .footer1{
+            height: 350px;
+        }
+        .inner1-logo img{
+            height: 7vh;
+            width: 6vw;
+        }
+        
+        .inner1-logo h1{
+            font-size: 18px;
+        }
+        .innerfooter1 p{
+            font-size: 13px;
+        }
+        .innerfooter2 h1{
+            margin-top: 2vh;
+            font-size: 17px;
+        }
+    
+        .inner2-head{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            
+            
+        }
+        .inner2-head h3{
+            width: 100%;
+            font-size: 10px;
+            
+        }
+        .innerfooter3 h1{
+            margin-top: 2vh;
+            font-size: 17px;
+        }
+    
+        .inner3-head{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            
+            
+        }
+        .inner3-head h3{
+            width: 100%;
+            font-size: 10px;
+            
+        }
+        .innerfooter4 h1{
+            font-size: 17px;
+            margin-top: 2vh;
+    
+        }
+        .inner4-img img{
+            width: 15vw;
+            height: 10vh;
+            
+        }
+    
+        .inner4-img img+img{
+            width: 8vw;
+            height: 16vh;
+        }
+       
+       
+
+        .footer2 h3{
+            font-size: 13px;
+        } 
+        
+        
+        
+       
+
+       
+    }
+
+    @media (max-width:690px) {
+        .inner1-logo img {
+
+width: 39px;
+height: 36.05px;
+
+        }
+        
+        .inner1-logo h1 {
+
+width: 111px;
+font-size: 15px;
+
+        }
+        .innerfooter1 p {
+            width: 100%;
+            font-size: 10px;
+            margin-top: 2vh;
+            flex-wrap: wrap;
+        }
+       
+        .innerfooter2{
+            padding-left: 15px;
+        }
+        .innerfooter2 h1 {
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .inner2-head h3 {
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .innerfooter3{
+            width: 100px;
+        }
+        .innerfooter2{
+            width: 160px;
+        }
+
+        .innerfooter3 h1{
+            font-size: 12px;
+        }
+        .innerfooter3 h3{
+            font-size: 12px;
+        }
+        .innerfooter4 h1 {
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .inner4-img{
+            height: auto;
+            width: auto;
+            flex-wrap: wrap;
+        }
+      
+        .footer2 h3 {
+            font-size: 10px;
+            font-weight: 500;
+         
+        }
+        .footer2 a{
+            font-size: 10px;
+        }
+        .footer2 h2{
+            font-size: 10px;
+        }
+        .footer1{
+         
+        }
+        footer{
+          
+            padding-left: 15px;
+        }
+        .footer2{
+            padding-left: 2vw;
+        }
+
+    
+    }
+
+
+    @media (max-width:477px) {
+        footer{
+            width: 100%;
+            height: 150vh;
+            font-family: 'poppins';
+            color: #ffffff;
+        }
+        .footer1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 130vh;
+            justify-content: flex-start;
+            }
+
+            .innerfooter1{
+                width: 100%;
+               
+            }
+            .inner1-logo{
+                height: 10vh;
+                width: 100%;
+                
+            }
+            .inner1-logo img{
+                height: 8vh;
+                width: 13vw;
+            }
+            
+            .inner1-logo h1{
+                font-size: 20px;
+                width: auto;
+            }
+            .innerfooter1 p{
+font-weight: 400;
+font-size: 14.5948px;
+
+            }
+
+            .innerfooter2{
+                width: 46%;
+                padding: 0px;
+            }
+        
+            .innerfooter2 h1{
+                font-weight: 500;
+                font-size: 18px;
+            }
+        
+            .inner2-head{
+                width: 100%;
+                height: 25vh;
+                
+            }
+            .inner2-head h3{
+                font-weight: 500;
+                font-size: 16px;
+                width: 100%;
+                
+            }
+
+            .twofooter{
+                display: flex;
+                gap: 10px;
+                margin-top: 5vh;
+               }
+            .innerfooter3{
+                width: 46%;
+                padding: 0px;
+            }
+        
+            .innerfooter3 h1{
+                font-weight: 500;
+                font-size: 18px;
+            }
+        
+            .inner3-head{
+                width: 100%;
+                height: 25vh;
+                padding-left: 3vw;
+                
+            }
+            .inner3-head h3{
+                font-weight: 500;
+                font-size: 16px;
+                width: 100%;
+                
+            }
+
+            .innerfooter4{
+                width: 100%;
+
+            }
+        
+            .innerfooter4 h1{
+                font-size: 18px;
+        
+            }
+        
+            .inner4-img{
+                width: 100%;
+                height: 10vh;
+                display: flex;
+                justify-content: flex-start;
+            }
+        
+            .inner4-img img{
+                width: 190.45px;
+                height: 68.77px;
+                
+                        }
+                        .inner4-img img+img {
+                width: 75.04px;
+                height: 110.92px;
+                
+                
+                        }
+        
+        
+            .footer2{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-right: 15px;
+            }
+        
+            .footer2 h3{
+                font-size: 12px;
+                font-weight: 400;
+                padding-left: 0px;
+            }     
+            .sign{
+                margin-top: 1vh;
+    width: 325px;
+    height: 36.49px;
+    
+            }
+            .insidefooter2{
+                gap: 15px;
+            }
+    }

@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+    width: auto;
+    font-family: 'poppins';
+   align-items: center;
+}
+.img-container img{
+width: 25vw;
+}
+.heading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heading h1{
+font-size: 9vh;
+color: #4CAF4F;
+font-weight: 600;
+
+}
+
+.heading h1+p{
+    color: #1B1D21;
+    width: 100%;
+}
+
+.heading p{
+    width: 100%;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 20px;
+display: flex;
+align-items: center;
+color: #717171;
+}
+
+
+.volunteer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.volunteer img{    
+padding: 15px 17px;
+gap: 20px;
+width: 28vw;
+height: 88vh;
+border-radius: 10px;
+}
+
+#mobile{
+        display: none;
+        align-items: center;
+    }
+
+
+@media(max-width:477px) {
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    gap: 0px;
+    margin-left: 2vh;
+    padding-top: 10vh;
+   }
+   
+.img-container img{
+width: 290px;
+height: 293px;
+}
+.img-container{
+    width: 358px;
+}
+   
+.heading{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+height: 55vh;
+width: 100%;
+}
+.heading h1{
+width: 302px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+display: flex;
+align-items: center;
+position: absolute;
+top: 70px;
+}
+
+.heading p{
+width: 100%;
+height: 29vh;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.015em;
+}
+
+.volunteer{
+    margin-top: 70px;
+}
+
+.volunteer img{
+    height: 80vh;
+    width: 90vw;
+}
+}    
+
+@media(max-width:992px) and (min-width: 478px) {
+    .img-container img{
+        width: 45vw;
+        height: 60vh;
+        }
+        .heading h1{
+            
+        font-size: 30px;
+            }
+            
+            .heading p{
+                font-size: 15px;
+            }
+            .volunteer img{
+                height: 80vh;
+                width: 50vw;
+            }
+}
