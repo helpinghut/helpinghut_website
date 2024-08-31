@@ -171,7 +171,7 @@ margin-left: 25vw;
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    background-image: url(../images/aboutcardback.png);
+    background-image: url(aboutcardback.png);
     background-size: cover;
     flex-wrap: wrap;
     
@@ -295,7 +295,7 @@ margin-bottom: 10px;
 .gallery-img{
     width: 100%;
     flex-wrap: wrap;
-    background-image: url(../images/galleryback.png);
+    background-image: url(galleryback.png);
     background-size: cover;
     height: auto;
     background-position: center;
